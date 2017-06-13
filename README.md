@@ -23,6 +23,9 @@ checkbox = [[CenCheckBox alloc] initWithFrame:NSMakeRect(0, 0, 200, 200)];
 <img src="https://github.com/ZHANGneuro/CenCheckbox/blob/master/Screen%20Recording.gif">
 </p>
 
-<br /><br /><br />
+<br /><br />
+Cen is beautiful girl with a kind heart and loving soul, I am truly blessed to have a friend like her, I am working hard towrds everything I want, I appreciate and thank God for what I have for the past and future. 
+<br /><br />
+
 bo <br />
 2017-06-14
