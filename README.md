@@ -18,7 +18,7 @@ CenCheckBox is modified version of BEMCheckBox for MacOS, since BEMCheckBox is d
 checkbox = [[CenCheckBox alloc] initWithFrame:NSMakeRect(0, 0, 200, 200)];
 [window.contentView addSubview:checkbox];
 ```
-
+<div style="text-align:center"><img src ="https://github.com/ZHANGneuro/CenCheckbox/blob/master/Screen%20Recording.gif" /></div>
 ![alt tag](https://github.com/ZHANGneuro/CenCheckbox/blob/master/Screen%20Recording.gif)
 
 
