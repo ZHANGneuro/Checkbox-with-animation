@@ -25,10 +25,10 @@ CenCheckBox *checkbox = [[CenCheckBox alloc] initWithFrame:NSMakeRect(0, 0, 200,
 checkbox.animator = @"BEMAnimationTypeFlat";
 [window.contentView addSubview:checkbox];
 ```
-<p align="center"> <p align="center">  
-<p align="center"> <p align="center">
+<br /><br />
 
 
+<p align="center"> 
 <img src="https://github.com/ZHANGneuro/CenCheckbox/blob/master/Screen_Recording.gif">
 </p>
 
