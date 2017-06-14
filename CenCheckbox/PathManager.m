@@ -12,7 +12,7 @@
 
 - (NSBezierPath *)path_map:(int) circle_size {
     self.size = circle_size;
-    CGFloat radius = self.size / 2.2;
+    CGFloat radius = self.size / 2.5;
     NSBezierPath* thepath = [NSBezierPath bezierPath];
     [thepath appendBezierPathWithArcWithCenter:CGPointMake(self.size / 2, self.size / 2) radius:radius startAngle:- M_PI / 4 endAngle:2 * M_PI - M_PI / 4 clockwise:YES];
     return thepath;
@@ -20,7 +20,7 @@
 
 - (CGPathRef)pathForBox:(int) circle_size {
     self.size = circle_size;
-    CGFloat radius = self.size / 2.2;
+    CGFloat radius = self.size / 2.5;
     NSBezierPath* thepath = [NSBezierPath bezierPath];
     [thepath appendBezierPathWithArcWithCenter:CGPointMake(self.size / 2, self.size / 2) radius:radius startAngle:- M_PI / 4 endAngle:2 * M_PI - M_PI / 4 clockwise:YES];
     CGPathRef for_return = [thepath quartzPath];

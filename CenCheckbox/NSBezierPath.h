@@ -9,14 +9,8 @@
 #import <Cocoa/Cocoa.h>
 #import <Foundation/Foundation.h>
 
-//@interface NSBezierPath_to_CGPathRef : NSBezierPath(BezierPathQuartzUtilities)
 @interface NSBezierPath (BezierPathQuartzUtilities)
 
-
-
 - (CGPathRef)quartzPath;
-
-
-
 
 @end

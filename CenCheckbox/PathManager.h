@@ -13,19 +13,11 @@
 
 @interface PathManager : NSObject
 
-
 @property (nonatomic) CGFloat size;
 
-
 - (CGPathRef)pathForBox:(int) circle_size;
-
-
 - (CGPathRef)pathForCheckMark;
-
-
 - (CGPathRef)pathForFlatCheckMark;
-
-
 - (NSBezierPath *)path_map:(int) circle_size;
 
 @end

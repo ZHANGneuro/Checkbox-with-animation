@@ -69,10 +69,10 @@
 				F8FA7B5D1EF0514C00A3CDAA /* AppDelegate.m */,
 				F8FA7B5E1EF0514C00A3CDAA /* CenCheckBox.h */,
 				F8FA7B5F1EF0514C00A3CDAA /* CenCheckBox.m */,
-				F8FA7B601EF0514C00A3CDAA /* NSBezierPath.h */,
-				F8FA7B611EF0514C00A3CDAA /* NSBezierPath.m */,
 				F8FA7B621EF0514C00A3CDAA /* PathManager.h */,
 				F8FA7B631EF0514C00A3CDAA /* PathManager.m */,
+				F8FA7B601EF0514C00A3CDAA /* NSBezierPath.h */,
+				F8FA7B611EF0514C00A3CDAA /* NSBezierPath.m */,
 				F8FA7B5A1EF0514C00A3CDAA /* AnimationManager.h */,
 				F8FA7B5B1EF0514C00A3CDAA /* AnimationManager.m */,
 				F8FA7B4F1EF0512E00A3CDAA /* Assets.xcassets */,
@@ -316,6 +316,7 @@
 				F8FA7B591EF0512E00A3CDAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

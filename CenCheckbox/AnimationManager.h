@@ -6,7 +6,6 @@
 //  Copyright © 2017 boo. All rights reserved.
 //
 
-//#import <UIKit/UIKit.h>
 #import <AppKit/AppKit.h>
 #import <QuartzCore/CAAnimation.h>
 #import <QuartzCore/CAMediaTimingFunction.h>
@@ -27,6 +26,8 @@
 
 - (CABasicAnimation *)morphAnimationFromPath:(CGPathRef)fromPath toPath:(CGPathRef)toPath ;
 
+- (CAKeyframeAnimation *)fillAnimationWithBounces:(NSUInteger)bounces amplitude:(CGFloat)amplitude reverse:(BOOL)reverse;
 
+- (CABasicAnimation *)strokeAnimationReverse:(BOOL)reverse;
 
 @end

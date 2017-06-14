@@ -13,7 +13,7 @@
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 
 @property NSWindow *window;
-@property CenCheckBox *checkbox;
+
 
 
 @end
