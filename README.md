@@ -13,7 +13,6 @@ CenCheckBox is modified version of BEMCheckBox for MacOS, since BEMCheckBox is d
 #import "CenCheckBox.h"
 ```
 
-
 2. Initializing "CenCheckBox" and add it to a NSView. 
 ```Objective C
 CenCheckBox *checkbox = [[CenCheckBox alloc] initWithFrame:NSMakeRect(0, 0, 200, 200)];
@@ -26,7 +25,9 @@ CenCheckBox *checkbox = [[CenCheckBox alloc] initWithFrame:NSMakeRect(0, 0, 200,
 checkbox.animator = @"BEMAnimationTypeFlat";
 [window.contentView addSubview:checkbox];
 ```
-<p align="center"> <p align="center"> 
+<p align="center"> <p align="center">  
+<p align="center"> <p align="center">
+
 
 <img src="https://github.com/ZHANGneuro/CenCheckbox/blob/master/Screen_Recording.gif">
 </p>
