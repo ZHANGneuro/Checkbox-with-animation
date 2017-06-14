@@ -22,11 +22,13 @@ CenCheckBox *checkbox = [[CenCheckBox alloc] initWithFrame:NSMakeRect(0, 0, 200,
 3. Setting animation after initializing.
 ```Objective C
 CenCheckBox *checkbox = [[CenCheckBox alloc] initWithFrame:NSMakeRect(0, 0, 200, 200)];
+
 // Animation options:
 // BEMAnimationTypeFlat
 // BEMAnimationTypeFill
 // BEMAnimationTypeStroke
 // BEMAnimationTypeBounce
+
 checkbox.animator = @"BEMAnimationTypeFlat";
 [window.contentView addSubview:checkbox];
 ```
