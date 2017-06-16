@@ -36,7 +36,7 @@
     _blue_color = [NSColor colorWithRed:0 green:122.0/255.0 blue:255/255 alpha:1];
     _offFillColor = [NSColor clearColor];
     _tintColor = [NSColor lightGrayColor];
-    _lineWidth = 10;
+    _lineWidth = 3;
     _animationDuration = 0.2;
     _pathManager = [PathManager new];
     _circle_map = [_pathManager path_map:self.frame.size.width];
@@ -47,7 +47,8 @@
 
 - (void)mouseDown:(NSEvent *)theEvent{
     NSPoint event_location = [theEvent locationInWindow];
-    BOOL inside_enclosed_area = [self.circle_map containsPoint:NSMakePoint(event_location.x-self.frame.origin.x, event_location.y-self.frame.origin.y)];
+    NSPoint transformed_location = [self convertPoint: event_location fromView: nil];
+    BOOL inside_enclosed_area = [self.circle_map containsPoint:NSMakePoint(transformed_location.x, transformed_location.y)];
     if (inside_enclosed_area) {
         [self setOn:!self.on animated:YES];
     }
