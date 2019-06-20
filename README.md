@@ -1,6 +1,6 @@
 # CenCheckbox
 
-CenCheckBox is modified version of BEMCheckBox for MacOS, since BEMCheckBox is designed for iOS platform only. For the current version, 4 animations are integrated, you can try to add more, I will improve this version when I am free. Hope this repository helps someone who wanted to use BEM-style checkbox on MacOS.<br /><br />
+This is a modified version of BEMCheckBox for MacOS, since BEMCheckBox is designed for iOS platform only. For the current version, 4 animations are integrated, you can try to add more, I will improve this version when I am free. Hope this repository helps someone who wanted to use BEM-style checkbox on MacOS.<br /><br />
 
 <p align="center"> 
 <img src="https://github.com/ZHANGneuro/CenCheckbox/blob/master/Screenshot.png">
@@ -39,9 +39,6 @@ checkbox.animator = @"BEMAnimationTypeFlat";
 <img src="https://github.com/ZHANGneuro/CenCheckbox/blob/master/Screen_Recording.gif">
 </p>
 
-<br /><br />
-Cen is beautiful girl with a kind heart and loving soul, I am truly blessed to have a friend like her, I am working hard towrds everything I want, I appreciate and thank God for what I have for the past and future. 
-<br /><br />
 
 bo <br />
 2017-06-14
