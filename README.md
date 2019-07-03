@@ -1,4 +1,4 @@
-# CenCheckbox
+# Checkbox
 
 This is a modified version of BEMCheckBox for MacOS, since BEMCheckBox is designed for iOS platform only. For the current version, 4 animations are integrated, you can try to add more, I will improve this version when I am free. Hope this repository helps someone who wanted to use BEM-style checkbox on MacOS.<br /><br />
 
